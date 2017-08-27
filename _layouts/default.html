@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-{% seo %}
+    <title>不可得</title>
+
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
@@ -18,7 +19,7 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <p>微信公众号：bukedenet</p>
-        ![](/img/qrcode.jpg)
+        <img src="img/qrcode.jpg" />
       </header>
       <section>
 
@@ -26,7 +27,7 @@
 
       </section>
       <footer>
-        <p>This project is maintained by <a href="http://ruijie.lu">lreij</a> and ♥</p>
+        <p>This project is maintained by <a href="http://ruijie.lu">lreij</a> ♥</p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
